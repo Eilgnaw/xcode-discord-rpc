@@ -29,7 +29,7 @@ fn main() {
                 .num_args(0)
                 .action(ArgAction::SetFalse)
                 .help("Hide current file in Discord Rich Presence")
-                .default_value("false"),
+                .default_value("true"),
         )
         .arg(
             Arg::new(SHOW_PROJECT_ARG_ID)
