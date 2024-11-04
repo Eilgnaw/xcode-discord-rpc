@@ -2,7 +2,7 @@
 
 A simple Discord Rich Presence client for Xcode
 
-## new
+## new v0.2.2
 - set -p -f false
 
 <p align="center">
