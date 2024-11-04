@@ -2,7 +2,9 @@
 name: auto-brew
 
 on:
-  workflow_dispatch:
+  push:
+    tags:
+      - "*"
 
 jobs:
   release:
