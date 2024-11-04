@@ -2,8 +2,8 @@
 
 A simple Discord Rich Presence client for Xcode
 
-## new v0.2.2
-- set -p -f false
+## New 
+- hide project & file name
 
 <p align="center">
   <img src="readme.png" width="400" style="max-width: 100%; height: auto;" />
@@ -23,7 +23,7 @@ A simple Discord Rich Presence client for Xcode
 ### Installation with Homebrew
 
 ```bash
-brew tap izyumidev/xcode-discord-rpc
+brew tap Eilgnaw/xcode-discord-rpc
 brew install xcode-discord-rpc
 brew services restart xcode-discord-rpc
 ```
@@ -35,7 +35,7 @@ If things are not working, restart Discord and/or your computer.
 ```bash
 brew services stop xcode-discord-rpc
 brew uninstall xcode-discord-rpc
-brew untap izyumidev/xcode-discord-rpc
+brew untap Eilgnaw/xcode-discord-rpc
 ```
 
 ## Supported File Types
