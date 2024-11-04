@@ -58,7 +58,7 @@ fn main() {
 }
 
 fn discord_rpc(show_file: bool, show_project: bool) -> Result<(), Box<dyn std::error::Error>> {
-    let mut client = DiscordIpcClient::new("1158013054898950185")?;
+    let mut client = DiscordIpcClient::new("1212705432376836117")?;
 
     let mut xcode_is_running = false;
     let mut xcode_check_cycle_counter = 0;
