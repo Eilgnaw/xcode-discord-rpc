@@ -85,7 +85,7 @@ fn discord_rpc(show_file: bool, show_project: bool) -> Result<(), Box<dyn std::e
                 let project = if show_project {
                     current_project()?
                 } else {
-                    String::from("")
+                    String::from("test")
                 };
 
                 if !project_before.eq(&project) {
@@ -128,7 +128,7 @@ fn discord_rpc(show_file: bool, show_project: bool) -> Result<(), Box<dyn std::e
                         "metal" => ("Metal", "metal"),
                         _ => ("Xcode", "xcode"),
                     };
-                    &format!("Working on {}", file)
+                    &format!("Working on {} file", file_extension)
                 } else {
                     "Working on a file"
                 };
@@ -136,7 +136,7 @@ fn discord_rpc(show_file: bool, show_project: bool) -> Result<(), Box<dyn std::e
                 let state = if show_project {
                     &format!("in {}", project)
                 } else {
-                    "in a Project"
+                    "in an exciting project"
                 };
 
                 let activity = Activity::new()
