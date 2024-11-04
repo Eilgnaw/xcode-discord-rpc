@@ -29,7 +29,7 @@ fn main() {
                 .num_args(0)
                 .action(ArgAction::SetFalse)
                 .help("Hide current file in Discord Rich Presence")
-                .default_value("true"),
+                .default_value("false"),
         )
         .arg(
             Arg::new(SHOW_PROJECT_ARG_ID)
@@ -38,7 +38,7 @@ fn main() {
                 .num_args(0)
                 .action(ArgAction::SetFalse)
                 .help("Hide current project in Discord Rich Presence")
-                .default_value("true"),
+                .default_value("false"),
         )
         .get_matches();
 
